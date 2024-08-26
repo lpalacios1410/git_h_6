@@ -1,0 +1,426 @@
+[33m6a2cc1dfc[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m chore: combine the if statements into one (#5785)
+[33ma67a085cc[m fix: inRange test (#5821)
+[33mc7c70a7da[m test: add some cases (#5789)
+[33maa1821208[m test: fix cannot find root (#5741)
+[33ma79c5c434[m wip: unit test fixes continued
+[33mbd518dd90[m test: partially fix broken tests (#5733)
+[33m49683ffd5[m ci: make it work (#5728)
+[33m5308be3ba[m wip: code formatting nits continued
+[33mb5c59317e[m wip: code formatting nits continued
+[33m0b28b7f7b[m wip: code formatting nits
+[33m97d4a2fe1[m wip: migrate to bun
+[33m2da024c3b[m perf: use `===` instead of `==` (#5118)
+[33m540148d2c[m Update tests.yml (#5140)
+[33m2f79053d7[m Enable GitHub Actions CI.
+[33m5aaf898a8[m Fix ESLint errors and tests.
+[33mbcd061006[m Cleanup package.json and CONTRIBUTING.md.
+[33m2f900b62f[m Remove outdated contributor tips (#5008)
+[33me0029485a[m Update links in CONTRIBUTING.md & README.md (#4829)
+[33m86a852fe7[m Changing font-style to monospace for '--save' option in README.md (#4681)
+[33m74b09d627[m fix: fix the params of Hash#delete in in jsdoc (#4737)
+[33m08110bdcf[m fix: fix the jsdoc of SetCache#has (#4739)
+[33m0541ec89c[m Update links in CONTRIBUTING.md (#4741)
+[33m588bf3e20[m Handle leading zeros in quote html entity (#4623)
+[33m3f585df05[m Fix uniqueId prefix coercion (#4619)
+[33m04ebca6c8[m Enable escape and once tests (#4618)
+[33mcefddab1c[m Updated the check of isFunction method (#4555)
+[33ma6b960be0[m Remove extraneous conditional (#4531)
+[33m657f8bf71[m Fix parentheses placement broken in 16413cc
+[33m619ac6974[m Ensure `orderBy` will accept iteratee path arrays #4438 (#4513)
+[33m23b2a33e7[m Fix vulnerabilities in npm packages (#4490)
+[33m23286d642[m Short circuit sortedIndexBy methods for empty arrays (#4496)
+[33m898b378f0[m perfomance fixes, eslint fixes (#4482)
+[33m29eb5713f[m Cleanup baseOrderBy.
+[33m5df177747[m add order by behaviour with array similar to get method (#4453)
+[33mad38dc011[m Prevent ReDos in words (#4450)
+[33m0e9d44eed[m Fix flow and flowRight parameter handling (#4445)
+[33me51a42451[m Fix string methods to handle empty values (#4442)
+[33mabb54cc49[m Simplify toString (#4441)
+[33m3ebb38d38[m Coerce findLastIndex and lastIndexOf fromIndex parameter to integer  (#4440)
+[33med4b3a2dd[m Enable case methods tests (#4436)
+[33m91c9cb1ea[m Ensure escapeRegExp returns an empty string when passing falsy values  (#4432)
+[33m9971765d0[m Enable create tests and adapt it for the new primitive prototype behavior (#4418)
+[33me5f840745[m Flatten at paths parameter (#4431)
+[33m1011cfdf4[m merge: copy function values independent of source index  (#4429)
+[33m2cf08be62[m Ensure after n parameter is coerced from NaN to 0  (#4430)
+[33m8b441a506[m Align indentations
+[33mf90d0aec2[m Update `eslint` and `eslint-plugin-import`
+[33me2555a43a[m Implement asciiWords and unicodeWords using String.match instead of binding RegExp.exec (#4417)
+[33m15e1557b2[m lint files (#4416)
+[33m5b4dc5446[m Coerce to integer and set default value for chunk size parameter (#4413)
+[33m37cd5dc97[m Coerce drop and dropRight n param using toInteger (#4412)
+[33ma965836cf[m Enable indexOf tests (#4411)
+[33mff4949b8c[m Coerce indexOf fromIndex parameter to integer (#4410)
+[33m4f68e93a4[m Add missing isObject import to isIterateeCall (#4409)
+[33m142cee066[m Do not use property shorthand in countBy documentation (#4405)
+[33me2ae5b857[m Add missing isTypedArray import to baseClone (#4404)
+[33mf8c7064d4[m Cleanup security.md document.
+[33mbecd98274[m docs(security): add responsible disclosure policy (#4374)
+[33mdce7fccbb[m Add back accidentally removed semicolons to escape.js.
+[33m8bc17fe65[m Add support for globalThis when detecting global object (#4347)
+[33m4df32723c[m fix reTypedTag error (#4342)
+[33mabde9319f[m Fix typo in merge test (#4334)
+[33m488e62bd7[m Fix stringToPath bug for consecutive [] (#4319)
+[33m8fdf0ed9f[m Minor doc format (#4285)
+[33m6b1d83c96[m Fix typo in toPlainObject().
+[33mc68170b33[m Fix findLast missing dependency (#4259)
+[33m750067f42[m tweak _.clone/_.cloneDeep docs (#4239)
+[33mc541e4ccd[m Fix _.maxBy and _.minBy (#4233)
+[33me7221b96e[m Remove --save option as it isn't required anymore (#4199)
+[33md5ef31929[m Add initial test files from lodash v4. (#4172)
+[33m7606ea3e2[m Update package.json version.
+[33mfe7da4195[m Cancel old timer, editing pr #4139 (#4187)
+[33m3ae8f23bf[m Locally scope key in keysIn (#4173)
+[33m6248f8a65[m use extension resolution (#4163)
+[33mf4ca396a7[m Use 3 equal signs (#4153)
+[33mafab656cf[m Change type check and the way of sending params. (#4145)
+[33ma7e042888[m Add .github/.lock.yml config for lock bot.
+[33m238e763aa[m Use native filter instead of custom one where possible (#4116)
+[33maa1d7d870[m Replace getTag implementation by the one from baseGetTag (remove workarounds) (#4115)
+[33mc77650a17[m Remove check for Symbol.toStringTag field mutations in baseGetTag (#4112) (#4113)
+[33m6cb1f71ad[m Assume Symbol is always defined (#4111)
+[33m4c55ea706[m Use baseGetTag instead of getTag where possible (#4112)
+[33m7f2ee90c9[m Fix baseOrderBy missing dependency (#4105)
+[33m2130eacf4[m Fix baseClone missing dependency (#4104)
+[33mdaf1f1b10[m Fix findLast missing dependency (#4103)
+[33mc33df3147[m Re-add keysIn module fixing baseClone and baseMerge (#4099) (#4100)
+[33m151e31626[m Remove check for existence of getOwnPropertySymbols (#4102)
+[33m8eccdd098[m Restore createAssigner (fixes compilation of merge and mergeWith) (#4101)
+[33m508d46a7a[m Replace MapCache by Map in memoize (#4094) (#4095)
+[33m3b199c30e[m Remove checks for the Map existence (#4091)
+[33m377e2d87c[m fix: limit the precision when the precision is negative (#4085)
+[33mc3740e084[m Remove unnecessary null check in arrayEach (#4082)
+[33m78854835a[m Remove support for PhantomJS in arrayLikeKeys (#4081)
+[33m4cae8fb22[m Remove support for node v0.10 in arrayLikeKeys (#4079)
+[33m3b96b9199[m Call upperFirst directly, instead of capitalize, in camelCase (#4075) (#4077)
+[33m136d5253e[m Added arrow function in below files (#4061)
+[33m580cd4cd1[m Remove n_ note for unsupported Node.
+[33mf822dd8d7[m Add lodash-es description for ES6 scripts (#4035)
+[33m1e939919c[m converted to fat arrow function (#4059)
+[33mc4075c18c[m Update deps (eslint-plugin-import@2.14.0)
+[33md9c508272[m add round up description on ceil documentation (#4027)
+[33m6bdb8a2f7[m Add missing space in uniqWith docblock (#3995)
+[33m715aae679[m add snakeCase example with digit (#3993)
+[33m6018350ac[m Add extended and supplement combining marks ranges (#3932)
+[33m485118375[m Update `filterObject` docs to reference `pickBy` (#3861)
+[33mab960bdc9[m Clarify doc for `range` usage with single arg (#3854)
+[33m4ea8c2ec2[m Remove unused var from tail().
+[33m4ba0f8b61[m Remove more methods.
+[33m51c562256[m Add example of Array slice (#3823)
+[33mb8dfb7cc1[m Create fromEntries.js (#3809)
+[33m92a657513[m Avoid skipping set of -0 when an existing +0 exists. [closes #3798]
+[33maff192848[m Tiny style correction in `uniqueId` and `compareMultiple`
+[33m0d361bc7b[m Remove semicolons from `sampleSize` and `baseClone`
+[33m1859802d0[m Remove trailing space in `slice`
+[33m50860fded[m Added short circuit for typed arrays (#3786)
+[33m79dc90dfc[m Allow compareMultiple to accept compare functions in addition to order strings (#3764)
+[33m04a66a01e[m Update countBy doc example to be more at a glance friendly. [closes #3771]
+[33mfe14140c6[m Drop version number from readme.
+[33ma9d3ca873[m Updates version on README header (#3767)
+[33m224a256f6[m Update _.union documentation (#3758)
+[33mda0fad328[m Fix inclusion of litteral "+" in rsMisc (#3736)
+[33m363fef0ef[m internal: use util.types to migrate DEP0103 in Node.js (#3704)
+[33m6e4cdc0c5[m Fix npm link in README.md (#3700)
+[33mf73b35bb4[m Implement `defaultToAny` method (#3615)
+[33mc1f805f49[m use isObjectLike module instead of (typeof value == 'object' && value !== null) in another modules (#3650)
+[33m678eb000b[m Add string example to isEmpty docs (#3647)
+[33m7f24cab7d[m add uniq Map for generated ID (#3644)
+[33m54f05aa5c[m Update documentation in slice.js (#3631)
+[33m47a6d538f[m Cleanup compareAscending and remove hardcoded locale.
+[33m803c05dc6[m Support locales in sorting methods (#3602)
+[33m77c128fc2[m Changed to function as documented. (#3596)
+[33m75690245a[m Add the accepted customizer arguments to cloneDeepWith docs.
+[33me9562a6ce[m Update argument count for `cloneWith` customizer. [closes #3582]
+[33md985dbffb[m rAF as default for debounce/throtte (#3560) (#3567)
+[33mfa73d4688[m Enable _.words to detect ordinals in compound words. [closes #3561]
+[33mb2ea6b1cd[m Remove duplicated "by which" words from the doc (#3534)
+[33m3a330e0cb[m feat(sideEffects): Set sideEffects false for opt. (#3533)
+[33m462bc9bf3[m Update license file with MIT title (#3498)
+[33m40e096b6d[m Fix operator in `createMathOperation`. (#3499)
+[33m8464b184b[m Remove `map` examples from `parseInt` and `trim` (#3487)
+[33mc3b3c71b0[m Tiny style correction in `createMathOperation`.
+[33m76c2e0acc[m Revert "Fix typo in `escapeRegExp` (#3448)"
+[33mb36f21cba[m Faster/simpler isPlainObject check (#3483)
+[33me23c87427[m Tiny performance improvement by not compiling regular expression each time (#3479)
+[33m424d9fc34[m Fix typo in `inRange` (#3478)
+[33m30d305da0[m Modify the logic to make the code more intuitive (#3472)
+[33m7c006f744[m Fix #3466 (#3467)
+[33m102d9e34d[m Fix typo in `escapeRegExp` (#3448)
+[33me8c87cfc4[m Ignore log files that end with random numbers (#3445)
+[33mbcd2c3560[m Fix typo in `parseInt` (#3433)
+[33m413a38cdf[m Remove trailing space in `sortedUniq`.
+[33mbf5d0867a[m Remove semicolons from `dropRight`.
+[33m00705afc1[m Add jsDelivr hits badge (#3418)
+[33m270ca7166[m Add missing keysIn import for baseClone.js (#3413)
+[33m3ab99065a[m Verbiage change (#3408)
+[33m1b1bb79b0[m Commit and whitespace nits in debounce.
+[33m6ad829fa9[m Add pending() function to debounce and throttle to fix #3387 (#3388)
+[33mf5ea579db[m Fixes param definition (#3368)
+[33m8e631dfcd[m Faster testing against first char in `stringToPath` (to close #3308).
+[33m03e23ecc1[m clarify documentation about sortedUniq (#3310)
+[33ma0a3a6af9[m Fix typo in findKey.
+[33mc2616dd4f[m Remove useless return in setToPairs. (#3286)
+[33m76c1ed2fd[m avoid shadowing result (#3280)
+[33m527b167bc[m _.update() docs grammar fix (#3264)
+[33mbcd13b270[m Fixin loop args order regression from 3c2795b in `invertBy`.
+[33m536f09b68[m Fixin loop args order regression from 3c2795b in `invert`.
+[33m01148a1df[m Avoid using the values toString method in _.invert if it’s not a function. [closes #3260]
+[33m534296bba[m Update dropRight.js (#3241)
+[33me908519fc[m stringToPath: avoid shadowing variable (#3226)
+[33m61acdd0c2[m default prefix to empty string (#3214)
+[33mbacaaaef8[m Support symbols in property paths of `set`. [closes #3189]
+[33mb107653a0[m A better fix for `tag` scope in `baseClone`.
+[33m862073345[m Fixin tag scope in `baseClone`.
+[33m0274d3dd2[m Always use parentheses in arrow functions (fixin 67a3fb9).
+[33mf659da740[m Fix CoC link in .github/CONTRIBUTING.md (#3156)
+[33m0b3116400[m Complete wrapper modules removal for `setToString` (c6854fa).
+[33mf6827f482[m Fix CoC link in REAMDE (#3138)
+[33m5dce119b9[m Cleanup baseClone.
+[33m67a3fb99e[m Fix cloneDeep with circularly dependent Sets/Maps (#3123)
+[33mf03b3edca[m Update object checks.
+[33ma6019d531[m Fixin `repeat` import.
+[33mae4e45d8f[m Fixin `filter` imports.
+[33m08a3f533b[m Use `Array#splice` directly.
+[33m65b148a3b[m Remove `mergeData`.
+[33m4092747dd[m Fixin `some` and `every` imports.
+[33mbb059c0f6[m Fixin new `map` imports.
+[33me5e8f35c0[m Remove `baseSlice`.
+[33ma023f9204[m Fix typo in `find`.
+[33m58e484f38[m Remove `baseKeys` and `baseKeysIn`.
+[33maa5e1b2fe[m Fix object coercion.
+[33me2941dda3[m Fix typos.
+[33m64a997548[m Split `filter` out.
+[33m8b74809f1[m Simplify `mapKey` and `mapValue`.
+[33m0bdc73195[m Split `map` out.
+[33m73ce6066f[m Fix jsdoc for `every` and `some`.
+[33m8a51574ac[m Rename `mapKeys` and `mapValues` to `mapKey` and `mapValue`.
+[33me02db41f9[m Proper `style` npm script execution (#3103).
+[33mb79b71538[m Enable no-unexpected-multiline (#3103)
+[33maafd66da6[m Last spacing in template string expressions.
+[33mf888dfe4f[m Adjust eslint settings to new requirements (d10b44b).
+[33mb89854766[m Rename `someValues` to `someValue`.
+[33m23ae2c537[m Split out `every` into `everyValue`.
+[33md10b44bde[m Adjust spacing in template string expressions.
+[33m303502efa[m Remove `toSource`.
+[33m3390d9309[m Remove internal `hasPath`.
+[33m99fb4c8ff[m Fixin scope range for var declarations in internal version of `hasPath`.
+[33mb50617441[m Use more for-of
+[33m2538a5657[m Math them all.
+[33mbbd59f800[m Catch undeclared vars with eslint.
+[33m7c9211106[m Fixin scope range for var declarations in `hasPath` and `hasPathIn`.
+[33m96ebd4450[m Fixin missing references in `repeat`.
+[33m645acd427[m Fixin declaration in `someValues` (571e752).
+[33m402ca89c5[m Fixin declaration in `baseSum` (3e2b0bb).
+[33m3e2b0bb76[m Use more for-of
+[33mf3957ac41[m Remove `replaceHolders`.
+[33m571e752a4[m Rename `someObj` to `someValues`.
+[33mca2fd5c64[m Remove semicolons.
+[33m53cac4eef[m ESify `find` implementation.
+[33m6dc03831d[m Add `semi` option to eslint config.
+[33m6543d3277[m Add `someObj`.
+[33m1bdda20e4[m Reimplement find.
+[33mb679e9cc2[m Update _.pad* examples to show pad length < string. (#3088)
+[33m43a520c97[m Remove constant function from examples (#3086)
+[33m64d92ddf3[m Remove stubTrue from cond example (#3085)
+[33mdad1fccdb[m Remove unused internal `createCtor`.
+[33m6d19563a9[m Simplify `words`.
+[33m8be26ac75[m Implement `baseEach` and `baseEachRight` since `createBaseFor` is gone.
+[33md7bdf0ae2[m Remove `createCompounder`.
+[33m4b80666a3[m Simplify `tail`.
+[33mecb3c108d[m Simplify `flip`.
+[33m8db488b94[m Remove `getRawTag` and `objectToString`.
+[33ma8abced07[m Fixin `keysIn` import in `getAllKeysIn` by switching to `baseKeysIn`.
+[33mf7a6cddc9[m Remove `nativeKeys` and `nativeKeysIn`.
+[33mf3e0cbe5b[m Use more `Array#map`.
+[33m0acb2847b[m Remove `toString` use from `castPath`.
+[33m3c324a716[m Remove `toString` use from `createCaseFirst`.
+[33m76ab9cd53[m Adjust styling of array checks in `head`, `uniq`, `uniqBy` and `uniqWith` to other methods.
+[33m929a99698[m Remove `arrayReduce` from `createCompounder`.
+[33m164bc7132[m Remove `toString` from `createCompounder`.
+[33m9d11b48ce[m Remove `toUpper` and `toLower`.
+[33mb8a3a4227[m Remove `toString` coercion method use.
+[33m351e44a12[m Fixin some leftovers bb7c959.
+[33mf983ff2b7[m Prefere ES6 templates.
+[33mbb7c95947[m Remove coercion method use.
+[33m2f281c68b[m Remove `baseNth`.
+[33mc89637e4d[m Use more destructuring.
+[33mad3236a85[m Remove `countHolders`.
+[33m98969648e[m Say goodbye to jscs.
+[33m3e03cbf2b[m Use const and let for var declaration in `baseEach` and `baseEachRight`.
+[33m3b302b822[m Remove `baseClamp`.
+[33mfa8c60774[m Update `baseEach` modules.
+[33m4c77d8807[m Cleanup and sort eslint settings for future use.
+[33m357ce4663[m Remove `concat`.
+[33mb24750211[m Porting applicable jscs configuration to eslint.
+[33m5f2a03076[m Use the `new` operator with the `Array` constructor.
+[33m9260bd2f5[m Remove `baseTimes`.
+[33m41a8d2272[m Consistent use (always) of parentheses in arrow functions.
+[33m7ffe700d6[m Remove `join`.
+[33m49ac4a5b5[m Consistency for eslint `arrow-parens`.
+[33m59e45d99f[m Fixin assignment to constant.
+[33mbda6d56c6[m Remove guard params.
+[33m89829331f[m Remove `baseFill`.
+[33m3c2795b81[m Remove `baseForOwn` from several modules.
+[33m17f7069d0[m Remove `isIterateeCall`.
+[33mba52c744a[m Avoid let lists.
+[33me7bbcfa72[m Use const for `key` in `hasPath`.
+[33ma2fe30346[m Indent nit.
+[33me2096c0ef[m Fixin `keysIn` import in `defaults` by switching to `baseKeysIn`.
+[33md0f23b67a[m Use consistent nullish check for `array`.
+[33m46ffbc1d9[m Cleanup `hasPath` modules.
+[33md8b5183b1[m Consistent parens usage for arrow functions with body.
+[33m4c4b29cde[m Expose `hasPath` and `hasPathIn`.
+[33mb6a426a10[m Simplify `has` and `hasIn`.
+[33md1d86811b[m Use parens for single params too.
+[33m2fd70c8ec[m Ensure `toString` coerces nullish values in arrays to strings.
+[33m3e80dffd4[m Fixed small typo in debounce docs (#3029)
+[33m7cc1328bf[m Simplify `functions`.
+[33mffcb38f74[m Remove `isFunction` use.
+[33m37f168d46[m Remove `apply`.
+[33mb9c61eea6[m Remove `rearg`.
+[33m1e8ac50ab[m Missing iteratee call in `countBy` (missed in 5baad4d).
+[33m56b7d339a[m Remove `arrayPush` in favor of spreading arguments.
+[33m0350d4904[m Remove `baseWrapperValue`.
+[33m5baad4df1[m Missing iteratee call in `groupBy` and `keyBy`.
+[33maaef6f673[m Cleanup imports in `baseClone` and `baseMergeDeep`.
+[33m2a3296111[m Simplify `concat`.
+[33m3a375c0ae[m Fixin vars declaration inside templating fn because they cannot be declared as const.
+[33m31500cd6e[m Fixin missing accumulator return in `keyBy`.
+[33mb4e815c04[m Eslint cleanup for shared modules.
+[33m27644a7bd[m Remove `reverse` module.
+[33me52ed26c7[m Fixin missing accumulator return in reduce and predicate call in `partition`.
+[33m0369bf7af[m Replace one time used variables with their original refs in `random`.
+[33m16413cc32[m Eslint cleanup (imports left), except template.
+[33m753e47de1[m Esling ES6 rules for current codebase.
+[33mb87bd5250[m Minimal eslint config. (#3015)
+[33ma61f41a79[m Complete baseRandom removal (cb7612a).
+[33m53dba0a21[m Complete semicolons removal (6cb3460).
+[33m86e843751[m Remove `spread` module.
+[33m2d8359227[m Fixin `value` typo. (#3010)
+[33m2baf7a3e9[m Fixin `arrayPush` imports. (#3008)
+[33m677c01b75[m Complete stubs removal (c5c0ff7). (#3007)
+[33m43bcecf52[m Fix iteration order if sources in `defaults`.
+[33me31e1306c[m Inline `baseToString` into `toString`.
+[33m135cb0ad8[m Fixin imports in invert methods. (#3002)
+[33m3411cce1d[m Fixin imports in invoke. (#3001)
+[33m4f3ef2e8d[m Fixin import path to copyArray. (#3000)
+[33ma82297988[m Correct name of var and add missing import. (#2999)
+[33m8429c1db3[m Minor format not in `isKey`.
+[33md00787893[m Remove duplicate check symbol type (#2996)
+[33mb3810c2af[m Remove `baseAssign` modules.
+[33md931d6e8e[m Simplify isType methods.
+[33md460c4223[m Complete `identity` removal module. (#2993)
+[33m39931f9ea[m Unescape with broken regexp (#2992)
+[33m477fdb2cf[m Template broken after remove semicolons action (#2991)
+[33mf5b203121[m Additional fix for b0980a9 Remove `baseCreate`. (#2988)
+[33mb37e97346[m unescape broken after remove semicolons action (#2986)
+[33m2ab6da5b5[m fix baseMean usage in mean (#2985)
+[33m5fe15a160[m Simplify `defaults`. [closes #2983]
+[33m8f8b29368[m Simplify method juggle in trim modules.
+[33m5e3825904[m Expand `stringToPath` to matching more non-string expressions.
+[33m30c32908a[m Use “composes” to describe flow/flowRight. [closes #2979]
+[33m3b125166d[m Make the comment more generic.
+[33mfdd7a5b8d[m Minor cleanup in `stringToPath`.
+[33m62a88ce25[m Allow regexp to be minified better.
+[33m04348ab17[m Newline nit in `trimEnd`.
+[33m47abf76e8[m Comment the scary regexp.
+[33mcb7612aef[m Simplify `shuffle` and `sample`.
+[33mb0980a90f[m Remove `baseCreate`.
+[33m7479d282b[m Minor var order juggle in `compact`.
+[33m23c0bc0e7[m Use `new` operator to invoke the `array.constructor`.
+[33m5219385eb[m Use consistent `null` check in `head`.
+[33m6cb3460fc[m Remove semicolons.
+[33mf3a8e55e7[m Use built-in String#trim methods when possible.
+[33m9d445ec23[m bugfixed in zip & concat funcs (#2971)
+[33mac53cc7d6[m Use the built-in partial feature of modern `setTimeout`.
+[33mc068eedcf[m Remove `identity` module.
+[33ma6ff1ea9d[m Rename `isEqual` to `eqDeep`.
+[33m41133cf40[m Remove the `constant` module.
+[33m42b48b3d8[m Cleanup baseClone. [closes #2961]
+[33ma0b928dfb[m Remove extra spaces from jsdoc (#2958)
+[33m3c5b828d7[m Use `Object.assign` in `create`.
+[33mbac429108[m Simplify `toPlainObject`.
+[33m868fd1253[m Make `lower` param of `clamp` required. [closes #2949]
+[33mc5c0ff77b[m Remove stubs.
+[33m54abb96a8[m Remove “in” variants.
+[33mc5dac98e1[m Remove more modules that have ES equivs.
+[33m999022d64[m Remove `includes` module.
+[33m85255da56[m Add construction emojis.
+[33mc8285a41b[m Update with info about the state of `master` (#2941)
+[33mee1c64faf[m Even more tag cleanup.
+[33m73df84c0b[m More tag cleanup.
+[33mbe6a50b0e[m Cleanup tag order.
+[33m401016d26[m Add related function for each module. [closes #2932]
+[33mb856263af[m Replace `deburr` with `toString` in `createCompounder`.
+[33m085dc1aa0[m Consolidate `template` modules.
+[33m563059c4b[m Consolidate `invoke` modules.
+[33m168322fda[m Remove more creator modules.
+[33mf5e7671fb[m Use destructuring in code samples.
+[33md80077ed9[m Consolidate aggregate modules.
+[33m3b4cbc70e[m Consolidate `over` modules.
+[33m36927bff8[m Consolidate `invert` modules.
+[33mdcded33f5[m Remove `min` and `max` modules.
+[33mfe5c7a7f3[m Consolidate `toPairs` modules.
+[33maa60e55db[m Update module paths.
+[33m7baf2267a[m Cleanup `createRound`.
+[33mc6854fa8f[m Remove wrapper modules.
+[33m454219fbf[m Simplify flow modules.
+[33m379b7a057[m Minor cleanup to `createFlow`. [closes #2925]
+[33m34ca4f3ef[m Consolidate relational modules.
+[33m11052f4d8[m Cleanup `baseRandom`.
+[33m401c0f053[m Consolidate `max` and `min` modules.
+[33m6c54ae2ae[m Consolidate `delay` modules.
+[33m70379910f[m Simplify `baseCreate`.
+[33m41e6991d2[m Use index instead of `charAt`.
+[33m3b990b791[m Minor formatting nits.
+[33mdc4671dd0[m Simplify `isTypedArray`.
+[33mb2504adb3[m Fix `isFlattenable`.
+[33me45db2e50[m Remove `baseGetAllKeys`.
+[33me52c421c1[m Remove `overArg`.
+[33m0aa7a62dc[m Simplify `asciiSize`.
+[33mb6bdb23ff[m Remove `getPrototype`.
+[33m003c11c36[m Cleanup `stringToPath`.
+[33mc5d4bb8dc[m Consolidate `escape` and `unescape` modules.
+[33mfc1a36021[m Remove `isFinite` and `isNaN`.
+[33m4ecd69e4f[m Simplify isType modules.
+[33mb2f69ea36[m Remove `baseLodash`.
+[33m71f49dda0[m Move `Stack` modules into `Stack`.
+[33mc64a3bd3d[m Move `SetCache` modules into `SetCache`.
+[33m0cd28f982[m Move `MapCache` modules into `MapCache`.
+[33m400b5c09d[m Move `ListCache` modules into `ListCache`.
+[33m69cac0557[m Move `Hash` modules into `Hash`.
+[33m20befcdf8[m Remove `getView`.
+[33mef2c4bf5e[m Update doc examples to ES2015.
+[33m8c9705190[m Remove “static” jsdoc tag.
+[33mc500b2cc1[m Rearrange tag check order in `isFunction`.
+[33m26ea38dcf[m Move internal modules to “internal” folder.
+[33m2b0567312[m Remove unneeded comment from `memoize`.
+[33m8bc7e006d[m Assume ES5+ built-ins exist.
+[33m8501b0c2e[m Remove `_realNames`.
+[33m6d28724e4[m Inline `FUNC_ERROR_TEXT`.
+[33m71039740c[m Simplify `isArguments`.
+[33m6434747ef[m Use `Date.now`.
+[33m68190b854[m Use `Array.isArray`.
+[33m395a81058[m Remove `noop`.
+[33m82e681a19[m Remove `_getFuncName`.
+[33m1392d37ca[m Simplify `_createFlow`.
+[33m627bfe6bf[m Remove `arguments` references where possible.
+[33mf2c49500e[m Consolidate prototype vars used only once.
+[33mbc4262f90[m Remove core-js guard.
+[33m44950212a[m Cleanup built-in constructor modules.
+[33m9e467f872[m Remove `_wrapperClone` module.
+[33mdb4bbc9b4[m Fix `__data__` typos.
+[33m77cc37ba4[m Remove references to `_`.
+[33m65654f8f9[m Remove `baseIteratee` and `castFunction`.
+[33mefcf51c7b[m Remove unary helpers.
+[33m59124c4cf[m Remove category modules.
+[33maacfefc75[m Remove remaining rest helper use.
+[33m648722f1a[m Apply class transform.
+[33mc2208f82d[m Convert remaining vars to let/const.
+[33m40e9c66ca[m Remove more unused modules.
+[33mdc687c1d8[m Apply even more let/const transforms.
+[33me6152a97e[m Fix syntax typo.
+[33m4d0c15b49[m Apply more let/const transforms.
+[33mca9e6fa08[m Fix style nits.
+[33m10f64ee9c[m Apply let/const transform.
+
